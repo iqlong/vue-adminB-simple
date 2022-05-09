@@ -102,7 +102,8 @@
       }
       return {
         nodeEnv: process.env.NODE_ENV,
-        title: this.$baseTitle,
+        // title: this.$baseTitle,
+        title: '商城管理系统',
         form: {
           username: '',
           password: '',
